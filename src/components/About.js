@@ -1,3 +1,4 @@
+import aboutImg from "../images/about.jpeg";
 const About = () => {
   return (
     <section className="section" id="about">
@@ -9,25 +10,24 @@ const About = () => {
 
       <div className="section-center about-center">
         <div className="about-img">
-          <img
-            src="./images/about.jpeg"
-            className="about-photo"
-            alt="awesome beach"
-          />
+          <img src={aboutImg} className="about-photo" alt="awesome beach" />
         </div>
         <article className="about-info">
           <h3>explore the difference</h3>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
-            quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
-            unde dolor?
+            At Backroads, we believe travel should be an adventure that immerses
+            you in the heart of a destination, not just a sightseeing checklist.
+            We go beyond the tourist trails to connect you with stunning
+            landscapes, local cultures, and hidden gems you'd never find on your
+            own.
           </p>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
-            quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
-            unde dolor?
+            Our expert local guides, small group sizes, and carefully crafted
+            itineraries ensure you don't just see a place – you experience it.
+            We handle the logistics, so you can focus on the joy of discovery
+            and create memories that last a lifetime.
           </p>
-          <a href="#" className="btn">
+          <a href="#tours" className="btn">
             read more
           </a>
         </article>
