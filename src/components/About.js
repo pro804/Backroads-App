@@ -24,7 +24,7 @@ const About = () => {
             We handle the logistics, so you can focus on the joy of discovery
             and create memories that last a lifetime.
           </p>
-          <a href="#tours" className="btn">
+          <a href="#about" className="btn">
             read more
           </a>
         </article>

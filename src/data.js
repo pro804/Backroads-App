@@ -15,8 +15,14 @@ export const pageLinks = [
 export const socialLinks = [
   { id: 1, href: "https://www.facebook.com", icon: "fab fa-facebook" },
   { id: 2, href: "https://www.twitter.com", icon: "fa-brands fa-x-twitter" },
-  { id: 3, href: "https://www.squarespace.com", icon: "fab fa-squarespace" },
+  {
+    id: 3,
+    href: "https://www.pinterest.com",
+    icon: "fa-brands fa-pinterest",
+  },
 ];
+
+<i class="fa-brands fa-pinterest"></i>;
 
 export const services = [
   {
